@@ -1,0 +1,33 @@
+# ===== Python =====
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+venv/
+env/
+.pytest_cache/
+.mypy_cache/
+
+# ===== PyInstaller 打包产物 =====
+build/
+dist/
+*.spec
+
+# ===== 大型二进制 / 媒体（默认不入库，需提交用 git add -f）=====
+*.exe
+*.mp4
+*.avi
+*.dmp
+
+# ===== IDE / 编辑器 =====
+.vscode/
+.idea/
+
+# ===== Windows 系统文件 =====
+Thumbs.db
+desktop.ini
+
+# ===== 日志与临时文件 =====
+*.log
+*.tmp
+*.bak
